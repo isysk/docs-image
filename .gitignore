@@ -1,0 +1,60 @@
+
+
+
+# =========================== DO NOT touch below v1.0.0 ===============================
+
+# =============== RubyMine.gitignore
+# =============== PhPStorm.gitignore
+.idea
+
+
+# =============== OSX.gitignore
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# =============== # Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Except the .htpassed
+!.htpasswd
+temp/
+
+# Common Node files and folders
+#  https://github.com/github/gitignore/blob/master/Node.gitignore
+# ------------------------------------------------------------------------------
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+# ----- istanbul coverage reports ---
+coverage
+
+#hidden files
+.node
+
+#vscode
+.nyc_output/*
+.vscode/*
+
